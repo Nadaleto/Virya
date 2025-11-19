@@ -1,0 +1,11 @@
+.treinamento-page ul {
+  columns: 1;
+  list-style: disc;
+  padding-left: 1.5rem;
+}
+
+@media (min-width: 768px) {
+  .treinamento-page ul {
+    columns: 2;
+  }
+}

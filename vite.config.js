@@ -1,0 +1,18 @@
+import { defineConfig } from 'vite';
+import path from 'path';
+
+export default defineConfig({
+  plugins: [],
+  resolve: {
+    alias: {
+      '@': path.resolve(__dirname, './src')
+    }
+  },
+  server: {
+    host: true,
+    port: 5173
+  },
+  esbuild: {
+    jsx: 'automatic'
+  }
+});

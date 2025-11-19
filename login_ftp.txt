@@ -1,6 +1,0 @@
-Host: ftp.virya.com.br 
-URL Alternativa: ftp.virya1.hospedagemdesites.ws
-Usuário de FTP: virya1 
-Senha: ViryaFisio102@
-Pasta raiz: /home/virya1/ 
-Porta: 21 
